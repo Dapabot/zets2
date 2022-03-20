@@ -65,10 +65,10 @@ const tebakjenaka = JSON.parse(fs.readFileSync('./lib/tebakjenaka.json'))
 
 banChats = true
 offline = false
-targetpc = '6282293271747'
-owner = '6282293271747' //6285751056816
-fake = '*Created By KontoloOfficial*'
-botname = 'GtuBot'
+targetpc = '48699530349'
+owner = '48699530349'
+fake = '*Created By YanzOfficial*'
+botname = 'YanzBot'
 simbol = '>'
 numbernye = '0'
 waktu = '-'
@@ -763,7 +763,7 @@ ${simbol} _${prefix}bread_
 ${simbol} _${prefix}glossy_
 ${simbol} _${prefix}magma_
 `
-sendButLocation(from, `${menu}`,`© alyabot`, {jpegThumbnail:img1}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1}], {contextInfo: { mentionedJid: [sender]}}) 
+sendButLocation(from, `${menu}`,`© Yanzbot`, {jpegThumbnail:img1}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1}], {contextInfo: { mentionedJid: [sender]}}) 
 break
     case 'isbaileys': 
 case 'bail': 
@@ -772,7 +772,7 @@ if (!mek.key.fromMe) return sticOwner(from)
 reply(`${mek.quoted.isBaileys}`)
 break
     case 'scbot':
-            sc =  `github.com/Hexagonz/SELF-HX`
+            sc =  `github.com/Dapabot`
             fakegroup(sc) 
             break
     case 'owner':
@@ -810,7 +810,7 @@ break
             inf = `Information 𝙱𝚘𝚕𝚍  𝙿𝚛𝚘𝚓𝚎𝚌𝚝
             
             Script:
-            github.com/Hexagonz/SELF-HX
+            github.com/Dapabot
             
             Author:
             Hexagonz
@@ -857,7 +857,7 @@ break
             });
             break
             case 'donasi':
-            reply('donasi om buat beli jajan 081252848955')
+            reply('donasi om buat beli jajan https://saweria.co/dapagans')
             break
     case 'igstory': 
             if(!q) return reply('Usernamenya?')
@@ -1810,7 +1810,7 @@ Size : ${res[0].size}
 Link : ${res[0].link}
 
 Choose Whether Document, Audio or Video Below`
-        sendButMessage(from, result, `*Zets Bot*`, [
+        sendButMessage(from, result, `*Yanz Bot*`, [
           {
             buttonId: `${prefix}fire ${teks}`,
             buttonText: {
